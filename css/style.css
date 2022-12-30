@@ -1,0 +1,98 @@
+.container {position:relative;
+           margin-top: 100px;}
+
+
+
+.container {
+            display: flex;
+          }
+
+.container2 {margin-bottom: 60px;
+          }
+          
+.column {
+            flex: 1;
+          }
+ 
+  body {display: flex;
+            height:100vh;
+            justify-content: center;
+            align-items:center;
+            background:white}
+            
+.body3 {display: flex;
+  height:100vh;
+  justify-content: center;
+  align-items:center;}
+  
+                  
+ 
+.title1 {position: absolute;
+        text-align:center;
+         align:center;
+         margin-bottom: 700px;
+  }
+
+.title2 {position: absolute;
+    text-align:center;
+     align:center;
+     margin-top: 0px;
+}
+
+.title3 {position: absolute;
+  text-align:center;
+   align:center;
+   margin-top: 0px;
+}
+
+.personal {left:0px;
+    position: absolute;}
+
+
+  .field {left:300px;
+        position:absolute;
+        }
+
+.field11 {left:140px;
+          position:absolute;
+          }
+.field4 {position: absolute;
+         right:0px}
+
+.personal2 {left:550px;
+            position: absolute;}
+
+.personal3 {position: absolute;
+            left:330px;}
+
+.personal4  {position: absolute;
+  left:600px;}
+
+
+.field2 {left:750px;
+              position:absolute;} 
+              
+.field3 {position:absolute;
+         left:420px
+        }
+
+.field5 {position: absolute;
+         left: 450px;
+         }
+.field6 {position: absolute;
+          left: 200px;
+          width: 60%;}
+
+.upload-button {position: absolute;
+               margin-bottom: 500px; }
+
+.profile6 {margin-bottom:150px;}
+
+
+
+
+
+.foot1 {position: absolute;
+  text-align:center;
+  align:center;
+  margin-top: 660px;}
