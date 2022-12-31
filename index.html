@@ -12,7 +12,30 @@
     <hr>
     <h3>ตอนที่ 1 ประวัติผู้ทำการในอากาศ</h3>
   </div>
-<div class="upload-button"> <label for="upload-pic"> <input type="file" id="upload-pic" name="upload-pic"></label> </div>
+<div class="upload-button"> 
+  <label for="upload-pic"></label>
+  <input type="file" id="upload-pic" name="upload-pic"></div>
+
+  <div id="image-container"></div>
+  <script>
+    const fileInput = document.getElementById('upload-pic');
+    const imageContainer = document.getElementById('image-container');
+
+    fileInput.addEventListener('change', () => {
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+
+      reader.addEventListener('load', () => {
+        const image = new Image();
+        image.src = reader.result;
+        imageContainer.appendChild(image);
+      });
+
+      reader.readAsDataURL(file);
+    });
+  </script>
+
+
 <br><br>
 <body class="body1">
 <div class="container">  
