@@ -90,6 +90,21 @@
 
 
 
+#image-container img {
+  width: 2in;
+  height: 2in;
+  position:absolute;
+  right:500px;
+  top:60px;
+}
+
+#image-container img {
+  border-radius: 50%; /* Makes the image a circle */
+}
+
+
+
+
 
 
 .foot1 {position: absolute;
